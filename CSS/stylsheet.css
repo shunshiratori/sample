@@ -93,15 +93,15 @@ body {
   color: #fff;
 }
 
-.service .container {
+.container {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .service .container .item-1 {
   background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main1.png);
   background-size: cover;
-  background-position: center bottom;
+  max-width: 455px;
+  min-height: 632px;
 }
 
 .service h2 {
@@ -115,13 +115,15 @@ body {
 }
 
 .service .container .item-2 {
-  background-image: url();
+  background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main2.png);
   background-size: cover;
-  background-position: center bottom;
+  max-width: 455px;
+  height: 632px;
 }
 
 .service .container .item-3 {
   background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main3.png);
   background-size: cover;
-  background-position: center bottom;
+  max-width: 455px;
+  min-height: 632px;
 }
