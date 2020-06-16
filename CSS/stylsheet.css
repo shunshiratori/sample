@@ -93,37 +93,45 @@ body {
   color: #fff;
 }
 
-.container {
+.service .container {
   display: flex;
+  height: 540px;
 }
 
-.service .container .item-1 {
+.service .container .item {
+  padding: 8vmin;
+  flex-grow: 1;
+  flex-basis: 100vw;
+  min-height: 540px;
+}
+
+.service .container .item1 {
   background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main1.png);
   background-size: cover;
-  max-width: 455px;
-  min-height: 632px;
+  background-position: center bottom;
 }
 
 .service h2 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: #fff;
+  margin-bottom: 10px;
+  font-weight: normal;
 }
 
 .service p {
   text-align: justify;
   color: #fff;
+  font-size: 1.5rem;
 }
 
-.service .container .item-2 {
+.service .container .item2 {
   background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main2.png);
   background-size: cover;
-  max-width: 455px;
-  height: 632px;
+  background-position: center bottom;
 }
 
-.service .container .item-3 {
+.service .container .item3 {
   background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main3.png);
   background-size: cover;
-  max-width: 455px;
-  min-height: 632px;
+  background-position: center bottom;
 }
