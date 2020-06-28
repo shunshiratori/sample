@@ -31,18 +31,18 @@ body {
   margin: 0 auto 16px;
   width: 131px;
   height: 116px;
-  background-image: url(file:///Users/shiratorishun/Desktop/flower.file/logo.top.png);
+  background-image: url(../image/logo.top.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 5vh;
+  margin-top: 130px;
 }
 
 .header .tagline {
-  font-size: 1.8rem;
+  font-size: 20px;
   color: #fff;
-  margin: 16px 6vmin 24px;
-  animation: fadeIn 2s ease 0.2s 1 normal;
+  margin: 35px 6vmin 24px;
 }
 
 .header .content {
@@ -190,6 +190,7 @@ body {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
+  line-height: 0.7;
 }
 
 .price .container .item-frequency {
@@ -202,7 +203,9 @@ body {
 .price .container .item-frequency .img {
   background-image: url(../image/corender.png);
   margin-bottom: 16px;
-  height: 252px;
+  height: 152px;
+  width: 170px;
+  background-size: contain;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
@@ -223,9 +226,70 @@ body {
   background-image: url(../image/flowere.png);
   background-size: cover;
   height: 730px;
+  order: 1;
 }
 
 .flower .container .item-body {
   max-width: 400px;
   margin: 0 auto;
+}
+
+.item-frequency {
+}
+
+.item-frequency h2 {
+  font-weight: normal;
+  color: #3f434a;
+  text-align: center;
+  margin-top: 80px;
+  line-height: 1.6;
+}
+
+.flower .container {
+  height: 730px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
+
+.flower .container .item-body {
+  /* max-width: 400px;
+  margin: 0 auto; */
+  margin: 0 auto;
+  margin-right: 7%;
+  text-align: center;
+  max-width: 392px;
+  padding-top: 140px;
+}
+
+.flower .container .item-body p {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  color: #3f434a;
+}
+
+.flower .container .item-title {
+  order: 2;
+  padding-bottom: 10px;
+}
+
+.flower .container .item-title h2 {
+  font-weight: normal;
+  font-size: 25px;
+  color: #3f434a;
+}
+
+.flower .container h3 {
+  color: #3f434a;
+  font-weight: normal;
+}
+
+.vase {
+  height: 776px;
+  background-image: url(../image/vase.png);
+  background-size: cover;
+}
+
+.vase .container {
 }
