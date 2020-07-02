@@ -292,4 +292,29 @@ body {
 }
 
 .vase .container {
+  padding: 10vmin 0 0;
+}
+
+.vase .container h2 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 25px;
+  color: #3f434a;
+  line-height: 1.5;
+}
+
+.vase .container .title {
+  width: 50%;
+  max-height: fit-content;
+}
+
+.vase .container .discunt {
+  text-align: center;
+}
+
+.vase .container .item-body {
+  width: 50%;
+  text-align: center;
+  padding: 0 120px;
+  line-height: 1.5;
 }
