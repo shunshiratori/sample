@@ -139,7 +139,7 @@ body {
   background-position: center bottom;
 }
 
-.price {
+section.price {
   height: 510px;
 }
 
@@ -283,11 +283,11 @@ body {
   font-size: 25px;
   margin-top: 24px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .vase {
-  height: 776px;
-  background-image: url(../image/vase.png);
+  background-image: url(../image/vase2.png);
   background-size: cover;
 }
 
@@ -310,11 +310,57 @@ body {
 
 .vase .container .discunt {
   text-align: center;
+  margin-top: 17px;
 }
 
 .vase .container .item-body {
-  width: 50%;
-  text-align: center;
-  padding: 0 120px;
+  width: 400px;
+  margin-left: 117px;
   line-height: 1.5;
+}
+
+.vase .container .item-body p {
+  width: 400px;
+  margin-top: 27px;
+}
+
+.vase .container .item-body　.vase-variation {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px auto;
+}
+
+.vase .container　.vase-variation .item-bell {
+  background-image: url(../image/vase-bell.png);
+  background-size: cover;
+}
+
+.vase .container　.vase-variation .item-moon {
+  background-image: url(../image/vase.moon.png);
+  background-size: cover;
+}
+
+.vase .container　.vase-variation .item-candle {
+  background-image: url(../image/vase.candle.png);
+  background-size: cover;
+}
+
+@media screen and (min-width: 650px) {
+  .pc-br {
+    display: block;
+  }
+
+  .sp-br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .pc-br {
+    display: none;
+  }
+
+  .sp-br {
+    display: block;
+  }
 }
