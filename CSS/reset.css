@@ -82,6 +82,8 @@ video {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  color: #3f434a;
+  font-weight: normal;
 }
 
 body {

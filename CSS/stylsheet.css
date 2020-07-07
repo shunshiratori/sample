@@ -16,6 +16,7 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 
+/* 一段目 */
 .header {
   background-image: url(../image/top.png);
   background-size: cover;
@@ -93,6 +94,8 @@ body {
   color: #fff;
 }
 
+/* 二段目 */
+
 .service .container {
   display: flex;
   height: 540px;
@@ -106,7 +109,7 @@ body {
 }
 
 .service .container .item1 {
-  background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main1.png);
+  background-image: url(../image/main1.png);
   background-size: cover;
   background-position: center bottom;
 }
@@ -128,16 +131,18 @@ body {
 }
 
 .service .container .item2 {
-  background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main2.png);
+  background-image: url(../image/main2.png);
   background-size: cover;
   background-position: center bottom;
 }
 
 .service .container .item3 {
-  background-image: url(file:///Users/shiratorishun/Desktop/flower.file/main3.png);
+  background-image: url(../image/main3.png);
   background-size: cover;
   background-position: center bottom;
 }
+
+/* 三段目 */
 
 section.price {
   height: 510px;
@@ -213,13 +218,6 @@ section.price {
 }
 
 .flower .container {
-  height: 730px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-flow: column;
-}
-
-.flower .container {
   background-image: url(../image/flowere.png);
   background-size: cover;
   height: 730px;
@@ -241,6 +239,8 @@ section.price {
   line-height: 1.6;
 }
 
+/* 四段目 */
+
 .flower .container {
   height: 730px;
   display: flex;
@@ -249,11 +249,8 @@ section.price {
 }
 
 .flower .container .item-body {
-  /* max-width: 400px;
-  margin: 0 auto; */
   margin: 0 auto;
   margin-right: 7%;
-  /* text-align: center; */
   max-width: 392px;
   padding-top: 140px;
 }
@@ -269,6 +266,7 @@ section.price {
   order: 2;
   padding-bottom: 10px;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .flower .container .item-title h2 {
@@ -280,69 +278,172 @@ section.price {
 .flower .container h3 {
   color: #3f434a;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 24px;
   margin-bottom: 20px;
   text-align: center;
 }
+
+/* 五段目 */
 
 .vase {
   background-image: url(../image/vase2.png);
   background-size: cover;
 }
 
-.vase .container {
-  padding: 10vmin 0 0;
-}
-
 .vase .container h2 {
   font-weight: normal;
-  text-align: center;
   font-size: 25px;
   color: #3f434a;
   line-height: 1.5;
 }
 
-.vase .container .title {
-  width: 50%;
-  max-height: fit-content;
+.vase .container .vase-item-body {
+  width: 400px;
+  padding-top: 93px;
+  margin-left: 118px;
+  text-align: center;
+  padding-bottom: 165px;
+}
+
+.vase .container .item-title {
 }
 
 .vase .container .discunt {
-  text-align: center;
-  margin-top: 17px;
+  max-width: 210px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  background-color: white;
+  padding: 10px 12px;
+  margin-top: 22px;
 }
 
 .vase .container .item-body {
-  width: 400px;
-  margin-left: 117px;
   line-height: 1.5;
 }
 
 .vase .container .item-body p {
   width: 400px;
-  margin-top: 27px;
+  margin-top: 30px;
+  text-align: initial;
 }
 
-.vase .container .item-body　.vase-variation {
+section.vase .vase-variation {
   display: flex;
   justify-content: space-between;
   margin: 24px auto;
+  height: 113px;
 }
 
-.vase .container　.vase-variation .item-bell {
+section.vase .vase-variation .item-bell {
   background-image: url(../image/vase-bell.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 98px;
 }
 
-.vase .container　.vase-variation .item-moon {
+section.vase .vase-variation .item-moon {
   background-image: url(../image/vase.moon.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 98px;
 }
 
-.vase .container　.vase-variation .item-candle {
+section.vase .vase-variation .item-candle {
   background-image: url(../image/vase.candle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 98px;
+}
+
+.vase .container .price {
+  display: flex;
+}
+
+.vase .container .price .title {
+  border: solid 2px;
+  padding: 4px;
+  margin-right: 19px;
+}
+
+.vase .container .item-body　footnote {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+/* 六段目 */
+
+section.service2 {
+  padding: 12vmin 4vmin 16vmin;
+  text-align: center;
+}
+
+section.service2 h2 {
+  font-size: 25px;
+  margin-top: 102px;
+  margin-bottom: 39px;
+  font-weight: normal;
+}
+
+section.service2 .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.service2 .container .item {
+  padding-top: 60px;
+  margin-bottom: 131px;
+  flex-grow: 1;
+}
+
+section.service2 .container .item h3 {
+  margin-bottom: 23px;
+}
+
+section.service2 .container .item1 {
+  background-image: url(../image/icon01.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+section.service2 .container .item2 {
+  background-image: url(../image/icon02.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+section.service2 .container .item3 {
+  background-image: url(../image/icon03.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* 七段目 */
+
+section.download2 {
+  background-image: url(../image/smart.png);
   background-size: cover;
+  height: 420px;
+}
+
+section.download2 .item-logo {
+  background-image: url(../image/smart.logo.png);
+  background-size: 118px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 92px;
+  width: 255px;
+  height: 100px;
+  margin: 0 auto;
+  margin-right: 253px;
+}
+
+section.download2 .item-logo h3 {
+  padding-top: 90px;
 }
 
 @media screen and (min-width: 650px) {
