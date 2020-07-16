@@ -622,6 +622,7 @@ section.footer .copyright p {
   .vase .container .vase-item-body .item-body p {
     width: 100%;
     margin: 0;
+    font-size: 15px;
   }
 
   .vase .container .vase-item-body .item-body .vase-variation {
